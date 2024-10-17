@@ -5,8 +5,9 @@ import Show from '../pages/Show';
 import Delete from '../pages/Delete';
 
 
+
 const Router = () => (
-    <BrowserRouter>
+    <BrowserRouter basename= "/FrontProjectPrueba/">
         <Routes>   
             <Route index element={<Home/>} />
                <Route path="/show" element={<Show/>} />
