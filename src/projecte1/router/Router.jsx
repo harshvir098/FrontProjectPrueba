@@ -7,7 +7,7 @@ import Delete from '../pages/Delete';
 
 
 const Router = () => (
-    <BrowserRouter basename= "/FrontProjectPrueba">
+    <BrowserRouter >
         <Routes>   
             <Route index element={<Home/>} />
                <Route path="/show" element={<Show/>} />
